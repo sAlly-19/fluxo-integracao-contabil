@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Global rule to allow full functional read and write operations on the collections
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}

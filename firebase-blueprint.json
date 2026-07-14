@@ -1,0 +1,78 @@
+{
+  "schema": {
+    "collections": {
+      "companies": {
+        "rules": {
+          "read": "true",
+          "write": "true"
+        }
+      },
+      "processedBatches": {
+        "rules": {
+          "read": "true",
+          "write": "true"
+        }
+      },
+      "integrationRules": {
+        "rules": {
+          "read": "true",
+          "write": "true"
+        }
+      },
+      "accountPlans": {
+        "rules": {
+          "read": "true",
+          "write": "true"
+        }
+      },
+      "sheetConfigs": {
+        "rules": {
+          "read": "true",
+          "write": "true"
+        }
+      },
+      "importProgress": {
+        "rules": {
+          "read": "true",
+          "write": "true"
+        }
+      },
+      "bankAccounts": {
+        "rules": {
+          "read": "true",
+          "write": "true"
+        }
+      },
+      "defaultHistoryConfigs": {
+        "rules": {
+          "read": "true",
+          "write": "true"
+        }
+      },
+      "statementLayouts": {
+        "rules": {
+          "read": "true",
+          "write": "true"
+        }
+      },
+      "system_payments": {
+        "rules": {
+          "read": "true",
+          "write": "true"
+        }
+      },
+      "system_users": {
+        "rules": {
+          "read": "true",
+          "write": "true"
+        }
+      },
+      "system_logins": {
+        "rules": {
+          "read": "true",
+          "write": "true"
+        }
+      }
+    }
+  }
+}
