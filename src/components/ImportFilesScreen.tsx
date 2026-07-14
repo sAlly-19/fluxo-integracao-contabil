@@ -1524,21 +1524,21 @@ function GeneratedFilePreviewDialog({
               type="button"
               onClick={() => setDownloadFormat("que")}
             >
-              Questor (.QUE)
+              QUE (.QUE)
             </button>
             <button
               className={`rounded-lg px-3 py-2 text-xs font-bold uppercase tracking-wider transition-all duration-200 ${downloadFormat === "dominio" ? "bg-card text-primary shadow-sm" : "text-muted-foreground hover:text-foreground"}`}
               type="button"
               onClick={() => setDownloadFormat("dominio")}
             >
-              Domínio (.TXT)
+              Texto (.TXT)
             </button>
             <button
               className={`rounded-lg px-3 py-2 text-xs font-bold uppercase tracking-wider transition-all duration-200 ${downloadFormat === "csv" ? "bg-card text-primary shadow-sm" : "text-muted-foreground hover:text-foreground"}`}
               type="button"
               onClick={() => setDownloadFormat("csv")}
             >
-              Otimizza (.CSV)
+              Fluxo (.CSV)
             </button>
             <button
               className={`rounded-lg px-3 py-2 text-xs font-bold uppercase tracking-wider transition-all duration-200 ${downloadFormat === "custom" ? "bg-card text-primary shadow-sm" : "text-muted-foreground hover:text-foreground"}`}
